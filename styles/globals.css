@@ -1,11 +1,15 @@
-html,
+html {
+  border: solid 0.5em yellow;
+  height: 100%;
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background-color: aliceblue;
-  border: solid 1em yellow;
   color: black;
-  font-size: 10em;
+  font-size: 1em;
+  width: 100%;
 }
 
 button {
