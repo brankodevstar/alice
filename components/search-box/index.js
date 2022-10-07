@@ -1,7 +1,12 @@
+import styles from "./search-box.module.css";
+
 export default function SearchBox({ loginStatus }) {
   return (
-    <header>
-      <h1>SearchBox</h1>
-    </header>
+    <div className={styles.searchBox}>
+      <form>
+        <input type="text" placeholder="..." name="search" />
+        <button>create</button>
+      </form>
+    </div>
   );
 }
